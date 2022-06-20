@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #8497B0;
+  width:100%;
+  margin: 0 auto;
+  font-family: Noto Sans KR;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 0;
+}
+.profile {
+  width:30%;
+}
+.ID {
+  position:relative;
+  width:45%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.Password {
+  position:relative;
+  width:45%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.span {
+  font-weight: 550;
+  margin-right:5px;
+  width: 130px;
+  height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #BDD7EE;
+  color: black;
+  border-radius: 10px;
+}
+.text-id, .text-pw {
+  position:relative;
+  display:flex;
+  align-items: center;
+}
+input {
+  position:relative;
+  color: gray;
+  font-weight: 550;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:300px;
+  height: 30px;
+  padding:10px 0;
+  background-color: #BDD7EE;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.reset {
+  position: absolute;
+  display: inline-block;
+  right:1px;
+  padding:0 5px;
+  background-color: #BDD7EE ;
+  border: none;
+  color: gray;
+}
+.button {
+  font-size: 20px;
+  font-weight: 550;
+  width:539px;
+  height:50px;
+  background-color: #DAE3F3;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
